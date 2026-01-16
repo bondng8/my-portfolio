@@ -1,0 +1,96 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* @font-face {
+  font-family: myFont;
+  src: url('assets/TestSohneBreit-Buch-BF663d89ca2ff42.otf');
+} */
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: black;
+  font-family: "Anonymous Pro", monospace;
+}
+
+body {
+  overscroll-behavior: none;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.46)), url(../assets/orange-grain.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* nav bar */
+.header-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: transparent;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.nav-links {
+  background-color: rgba(0, 0, 0, 0.494);;
+  display: flex;
+  list-style-type: none;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  height: 55px;
+  width: 480px;
+  border-radius: 30px;
+  align-items: center;
+  justify-content: space-evenly;
+  box-shadow: inset 3px 3px 5px -1px #b53e21cc,
+    0px 0px 10px rgba(181, 62, 33, 0.8);
+}
+
+.nav-item {
+  text-decoration: none;
+  color: #b53e21;
+  transition: all ease-in 0.3s;
+  padding: 17px 15px;
+  border-radius: 30px;
+  font-size: 1.1em;
+}
+
+.nav-item:hover {
+  text-shadow: 0 0 8px #b53e21, 0 0 8px rgb(181, 62, 33);
+}
+
+.active {
+  color: #ff8d70;
+  text-shadow: 0 0 8px #b53e21, 0 0 8px rgb(181, 62, 33);
+}
+
+/* contact */
+.contact-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 160px 50px 60px 50px;
+}
+
+.contact-title {
+    color: #b53e21;
+}
+
+.link  {
+  color: #c85e5f;
+}
+
+h2 {
+  color: #b53e21;
+}

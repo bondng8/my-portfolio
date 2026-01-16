@@ -1,0 +1,115 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* @font-face {
+  font-family: myFont;
+  src: url('assets/TestSohneBreit-Buch-BF663d89ca2ff42.otf');
+} */
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: black;
+  font-family: "Anonymous Pro", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  overscroll-behavior: none;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.502)), url(../assets/red-white-grain.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* nav-bar */
+.header-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: transparent;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.nav-links {
+  background-color: rgba(0, 0, 0, 0.494);
+  display: flex;
+  list-style-type: none;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  height: 55px;
+  width: 480px;
+  border-radius: 30px;
+  align-items: center;
+  justify-content: space-evenly;
+  box-shadow: inset 3px 3px 5px -1px #ff595ccc,
+                    0 0 10px  rgba(226, 11, 15, 0.8);
+}
+
+.nav-item {
+  text-decoration: none;
+  color: #a22b2d;
+  transition: all ease-in 0.3s;
+  padding: 17px 15px;
+  border-radius: 30px;
+  font-size: 1.1em;
+}
+
+.nav-item:hover {
+  text-shadow: 0 0 8px #a22b2d, 0 0 8px rgb(162, 43, 45);
+}
+
+.active {
+  color: #c85e5f;
+  text-shadow: 0 0 8px #a22b2d, 0 0 8px rgb(162, 43, 45);
+}
+
+/* work */
+.work-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 160px 50px 90px 50px;
+}
+
+.work-title {
+    color: #a22b2d;
+}
+
+h1 {
+  /* text-align: center; */
+  margin: 0;
+}
+
+.project-1 img {
+  margin-top: 50px;
+  width: 500px;
+  height: 500px;
+}
+
+.project-2 img {
+  margin-top: 100px;
+  width: 400px;
+  height: 500px;
+}
+
+.project {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 100px;
+  color: #a22b2d;
+}
